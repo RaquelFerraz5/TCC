@@ -1,0 +1,50 @@
+/* https://alligator.io/css/pure-css-parallax/ */
+
+.wrapper {
+  margin-top: 10vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.section {
+  position: relative;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -4px;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.static {
+  background: linear-gradient(60deg, #60efe1e5, #12d1bed3);
+  color: white;
+}
+
+.bg1::after {
+  background-image: url("https://images3.alphacoders.com/708/708746.jpg");
+  background-color: rgba(0, 255, 242, 0.411);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:scroll;
+}
+
+
+
+
+
+
+
+
+

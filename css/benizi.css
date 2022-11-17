@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: poppins, sans-serif;
+    height: 100%;
+  }
+  
+  .image-one,
+  .image-two,
+  .image-three {
+    position: relative;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .image-one {
+    background-image: url(http://mtciencias.com.br/wp-content/uploads/2020/03/BERTHA-LUTZ-FOTO-DE-ARQUIVO-ONU.jpg);
+    min-height: 800px;
+  }
+  
+  .image-two {
+    background-image: url(https://th.bing.com/th/id/R.17efba803731fed0fd98456b2c48840b?rik=85aEqOgDF%2bz%2bwA&riu=http%3a%2f%2fwww.automatica.art.br%2fwp-content%2fuploads%2f2015%2f01%2fnise_site1.jpg&ehk=iFDG%2fF%2bFcOmDzrXZCTQ%2f4TrkcTvOYo%2b7tP96kqJf4WQ%3d&risl=&pid=ImgRaw&r=0);
+    min-height: 800px;
+  }
+  
+  .image-three {
+    background-image: url(https://iconografiadahistoria.com.br/wp-content/uploads/2021/02/Sem-Titulo-1-3-1024x576.png);
+    min-height: 800px;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .caption span {
+    padding: 10px 30px;
+    background: black;
+    color: lavenderblush;
+    font-size: 2rem;
+  }
+  
+  .between {
+    text-align: center;
+    padding: 3.5rem;
+    line-height: 1.8;
+    margin: 0 10%;
+  }
+  
+  .between h2 {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .between span {
+    color: hsla(15, 80%, 60%, 1);
+    font-weight: bold;
+  }
+  
+  .sub-image-heading {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .sub-image-heading h2 {
+    padding: 10px 30px;
+    color: dark;
+    font-size: 2rem;
+  }

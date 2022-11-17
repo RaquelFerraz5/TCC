@@ -1,0 +1,138 @@
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+a:active,
+a:focus {
+    color: #6f6f6f;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.img-fluid {
+max-width: 100%;
+height: auto;
+margin-top: 10px;
+}
+
+.icon {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 50px 0;
+    min-height: 100vh;
+}
+
+.footer {
+padding: 100px 0px 0px;
+background-color: #60EFE0;
+}
+
+.footer .socialLinks {
+margin-top: 25px;
+}
+
+.socialLinks ul li {
+display: inline-block;
+}
+
+.socialLinks ul li a i {
+display: block;
+margin: 0 2px;
+width: 40px;
+height: 40px;
+background: #fafafa;
+border-radius: 50%;
+text-align: center;
+margin-right: 5px;
+line-height: 40px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+footer .logo {
+max-width: 150px;
+float: left ;
+}
+
+.footer h5 {
+font-weight: 500;
+margin-bottom: 28px;
+text-transform: capitalize;
+font-weight: 600;
+color: #fff;
+font-size: 21px
+}
+
+.footer .widget2 .media img {
+margin-right: 25px;
+max-width: 90px;
+}
+
+.footer .widget2 .media {
+margin-bottom: 15px;
+}
+
+.footer .widget3 ul li a,
+.footer .widget4 ul li a {
+font-size: 18px;
+color: #fff;
+text-transform: capitalize;
+margin-bottom: 10px;
+display: block;
+}
+
+.footer .widget3 ul li a:hover,
+.footer .widget4 ul li a:hover,
+.footer .widget2 a:hover p {
+color: #004e3de0;
+}
+
+.footer .widget3 h5 {
+margin-bottom: 20px;
+font-weight: 600;
+color: #fff;
+font-size: 21px;
+line-height: 32px;
+}
+
+.footer .widget4 h5 {
+margin-bottom: 22px;
+font-weight: 600;
+color: #fff;
+font-size: 21px;
+}
+
+.copyRightArea {
+margin-top: 30px;
+border-top: 3px solid rgba(255, 255, 255, 0.295);
+padding: 20px 0px 24px;
+}
+
+.copyRightArea p {
+color: rgba(255, 255, 255, 1);
+}
